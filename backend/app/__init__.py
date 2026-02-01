@@ -1,0 +1,1 @@
+# Allow the app directory to be treated as a package

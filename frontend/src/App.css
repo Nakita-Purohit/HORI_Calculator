@@ -1,0 +1,102 @@
+/* SEARCH BAR POSITION */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 350px;
+  z-index: 1000;
+}
+
+/* GET DIRECTIONS BUTTON */
+.directions-btn {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  background: #0066ff;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 1000;
+  font-weight: bold;
+}
+
+/* DIRECTIONS PANEL */
+.directions-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 380px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+}
+
+/* BACK BUTTON */
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #0066ff;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+/* INPUT FIELD */
+.dir-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* SWAP BUTTON */
+.swap-btn {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+/* ADD STOP BUTTON */
+.add-stop-btn {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background: #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+/* STOP ROW */
+.stop-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.stop-remove {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: red;
+}
+
+.popup-directions-btn {
+  background: #0066ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,39 @@
+/* DirectionsPanel.css */
+
+.directions-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 18px;
+  width: 330px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+}
+
+.input-wrapper {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-wrapper input {
+  width: 100% !important;
+  box-sizing: border-box;
+}
+
+.add-stop-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  background: #ececec;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.route-btn {
+  margin-top: 15px;
+  padding: 10px;
+  width: 140px;
+}

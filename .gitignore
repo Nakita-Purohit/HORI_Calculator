@@ -1,0 +1,6 @@
+osrm/data/
+# Node, build, cache (Prevents huge folder uploads)
+node_modules/
+build/
+dist/
+.cache/

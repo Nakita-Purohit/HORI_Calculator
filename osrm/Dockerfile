@@ -1,7 +1,7 @@
 FROM osrm/osrm-backend:latest
 
-# Copy your route files
+# Copies route files
 COPY data/ /data
 
-# Run OSRM in MLD mode (fast routing)
+# Runs OSRM in MLD mode (fast routing)
 CMD ["osrm-routed", "--algorithm", "MLD", "/data/pa-latest.osrm"]
